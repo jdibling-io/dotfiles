@@ -2,7 +2,7 @@
 
 set -e
 
-cd $HOME
+cd /home/vscode
 sh -c "$(wget -qO- get.chezmoi.io)"
 sudo ln -s ~/bin/chezmoi /usr/local/bin/chezmoi
 cd -
