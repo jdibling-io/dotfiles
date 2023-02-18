@@ -1,0 +1,8 @@
+{
+  "terraform.languageServer.enable": true,
+  "terraform.languageServer.args": ["serve"],
+  "azureTerraform.terminal": "integrated",
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "terminal.integrated.defaultProfile.linux": "zsh"
+}
