@@ -4,5 +4,6 @@
   "azureTerraform.terminal": "integrated",
   "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "terminal.integrated.defaultProfile.linux": "zsh"
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "files.autoSave": "onFocusChange"
 }
