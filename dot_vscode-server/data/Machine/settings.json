@@ -5,7 +5,7 @@
   "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "files.autoSave": "off",
+  "files.autoSave": "onFocusChange",
   "editor.linkedEditing": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
