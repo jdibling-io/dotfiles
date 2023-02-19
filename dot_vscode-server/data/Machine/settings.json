@@ -6,5 +6,7 @@
   "editor.fontLigatures": true,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "files.autoSave": "onFocusChange",
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }
