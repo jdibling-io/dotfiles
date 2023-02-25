@@ -1,0 +1,21 @@
+# some more ls aliases
+alias ll='ls -alF --color=auto'
+alias la='ls -A'
+alias l='ls -CF'
+export FOO=BAR
+
+function root() {(
+	set -e
+	echo $(git rev-parse --show-toplevel)
+)}
+
+function cdr() {(
+	set -e
+	cd $(root)
+)}
+
+function pultok() {(
+	set -e
+	aws secretsmanager get-secret-value --secret-id jdibling/PULUMI_ACCESS_TOKEN --query 'SecretString' --output text | jq -r '.PULUMI_ACCESS_TOKEN'
+)}
+
