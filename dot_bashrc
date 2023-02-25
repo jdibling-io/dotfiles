@@ -14,3 +14,8 @@ function cdr() {(
 	cd $(root)
 )}
 
+function pultok() {(
+	set -e
+	aws secretsmanager get-secret-value --secret-id jdibling/PULUMI_ACCESS_TOKEN --query 'SecretString' --output text | jq -r '.PULUMI_ACCESS_TOKEN'
+)}
+
